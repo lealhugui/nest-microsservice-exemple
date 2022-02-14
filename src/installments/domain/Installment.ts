@@ -7,7 +7,7 @@ export class Installment implements IInstallmentProps {
   private constructor(private _props: IInstallmentProps) {}
 
   get asProps(): IInstallmentProps {
-    return this._props
+    return this._props;
   }
 
   get value(): number {

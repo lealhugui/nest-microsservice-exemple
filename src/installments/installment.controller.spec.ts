@@ -22,8 +22,9 @@ describe('InstallmentController', () => {
         totalValue: 100,
         numberInstallments: 3
       });
-      console.log(result);
       expect(result.length).toBe(3);
+      expect(result[0].value).toBe(33.33);
+      expect(result[2].value).toBe(33.34);
     });
   });
 });

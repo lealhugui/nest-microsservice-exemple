@@ -7,7 +7,6 @@ export class CalculateInstallmentsUseCase {
     totalValue: number;
     numberInstallments: number;
   }): Array<IInstallmentProps> {
-    console.log(request)
     if (!request || !request.totalValue || !request.numberInstallments) {
       throw new Error('Invalid value');
     }
@@ -15,7 +14,7 @@ export class CalculateInstallmentsUseCase {
       request.totalValue,
       request.numberInstallments
     );
-    if (!result.length) return result
-    return result.map(i => i.asProps)
+    if (!result.length) return result;
+    return result.map((i) => i.asProps);
   }
 }
