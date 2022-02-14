@@ -1,7 +1,7 @@
 
 ## Description
 
-Simple TypeScript framework using [Nest](https://github.com/nestjs/nest) as base project. POC using clean acrhitecture and DDD.
+Simple TypeScript project using [Nest](https://github.com/nestjs/nest) as base project. POC using clean architecture and DDD.
 
 ## Installation
 
